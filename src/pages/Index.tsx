@@ -63,7 +63,7 @@ const Index = () => {
           <div className="w-full md:w-2/3 bg-white/50 backdrop-blur-sm p-6 rounded-lg shadow-lg border border-pink-200">
             <div className="font-sans text-lg leading-relaxed space-y-4 animate-fade-in">
               <p className="italic text-secondary">
-                "Selamat atas kelulusan kamu di MAN 5 Bogor, Kaila! Semoga langkahmu ke depan selalu dimudahkan dan diberkahi. Kami bangga atas perjuangan dan kerja keras kamu selama ini. Jangan patah semangat kamu orang hebat."
+                "Selamat atas kelulusan kamu di MAN 5 Bogor, Kaila! Semoga langkahmu ke depan selalu dimudahkan dan diberkahi. Aku bangga atas perjuangan dan kerja keras kamu selama ini. Jangan patah semangat kamu orang hebat."
               </p>
               <p className="text-right text-gold">✨ – Dari L</p>
             </div>
