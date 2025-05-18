@@ -1,0 +1,72 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 45 77% 52%; /* Gold */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 213 100% 12%; /* Navy */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 47 100% 95%; /* Light cream */
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  h1, h2, h3 {
+    @apply font-script;
+  }
+  
+  p, span, div, input, textarea {
+    @apply font-sans;
+  }
+}
+
+.confetti {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  pointer-events: none;
+  z-index: 999;
+  animation: confetti-fall var(--fall-duration, 5s) linear forwards;
+}
+
+.music-control {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 50;
+}
