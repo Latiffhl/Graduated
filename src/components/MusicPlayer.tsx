@@ -7,7 +7,7 @@ const MusicPlayer: React.FC = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // Music source URL - replace with your actual hosted MP3 file
-  const musicSrc = '/src/audio/mahika.mp3';
+  const musicSrc = '/public/audio/mahika.mp3';
 
   const togglePlay = () => {
     if (audioRef.current) {
